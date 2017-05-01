@@ -1,0 +1,14 @@
+admin@SRX1# run show interfaces ge-0/0/1 brief
+Physical interface: ge-0/0/1, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 1514, Speed: 1000mbps, Loopback: Disabled,
+  Source filtering: Disabled, Flow control: Enabled, Auto-negotiation: Enabled,
+  Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+
+  Logical interface ge-0/0/1.0
+    Flags: SNMP-Traps 0x4000 Encapsulation: ENET2
+    Security: Zone: trust
+    Allowed host-inbound traffic : http https ping ssh
+    inet  192.168.3.201/24
